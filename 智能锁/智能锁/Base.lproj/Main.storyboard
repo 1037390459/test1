@@ -20,7 +20,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="oaG-re-Ev6"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="社区" id="LQu-tw-WZB"/>
+                    <tabBarItem key="tabBarItem" title="社区" image="tab_community_nro" selectedImage="tab_community_sel" id="LQu-tw-WZB"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v7f-Oj-iLJ" sceneMemberID="firstResponder"/>
             </objects>
@@ -36,7 +36,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="T0r-O0-UUo"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="消息" image="icon_news_nor" selectedImage="icon_news_sel" id="kdT-Af-XnS"/>
+                    <tabBarItem key="tabBarItem" title="消息" image="tab_icon_news_nro" selectedImage="tab_icon_news_sel2" id="kdT-Af-XnS"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bdx-OM-Om9" sceneMemberID="firstResponder"/>
             </objects>
@@ -52,7 +52,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="FqR-nx-zXX"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="商店" image="icon_shop_nor" selectedImage="icon_shop_sel" id="SzK-Th-Vga"/>
+                    <tabBarItem key="tabBarItem" title="商店" image="tab_icon_shop_nro" selectedImage="tab_icon_shop_sel" id="SzK-Th-Vga"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z5L-Vz-aLg" sceneMemberID="firstResponder"/>
             </objects>
@@ -68,7 +68,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="tSe-bf-wCR"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="设备" image="icon_shop_nor" selectedImage="icon_shop_nor" id="aBO-zb-ucy"/>
+                    <tabBarItem key="tabBarItem" title="设备" image="tab_equipment_nro" selectedImage="tab_equipment_sel" id="aBO-zb-ucy"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QWV-I5-y5R" sceneMemberID="firstResponder"/>
             </objects>
@@ -80,6 +80,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Qiq-Gy-tqm" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="D7a-O1-tZV">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -112,14 +113,14 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Yf8-bE-YiF">
-                                            <rect key="frame" x="75" y="0.0" width="284" height="43.5"/>
+                                            <rect key="frame" x="54" y="0.0" width="305" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="Authorization_icon_fingerprint_nro" id="Ycc-bJ-YFG">
-                                            <rect key="frame" x="16" y="0.0" width="44" height="43.5"/>
+                                            <rect key="frame" x="16" y="10" width="23" height="23"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </imageView>
                                     </subviews>
@@ -143,7 +144,7 @@
         <scene sceneID="BXQ-5j-1ug">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6oa-Ma-vS6" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="我的" id="OTY-Zc-oGL"/>
+                    <tabBarItem key="tabBarItem" title="我的" image="tab_me_nro" selectedImage="tab_me_sel" id="OTY-Zc-oGL"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="zfx-1w-ZJW">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -160,10 +161,16 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Authorization_icon_fingerprint_nro" width="68" height="68"/>
-        <image name="icon_news_nor" width="16" height="16"/>
-        <image name="icon_news_sel" width="16" height="16"/>
-        <image name="icon_shop_nor" width="16" height="16"/>
-        <image name="icon_shop_sel" width="16" height="16"/>
+        <image name="Authorization_icon_fingerprint_nro" width="22.684930801391602" height="22.684930801391602"/>
+        <image name="tab_community_nro" width="22" height="22"/>
+        <image name="tab_community_sel" width="22" height="22"/>
+        <image name="tab_equipment_nro" width="22" height="22"/>
+        <image name="tab_equipment_sel" width="22" height="22"/>
+        <image name="tab_icon_news_nro" width="22" height="22"/>
+        <image name="tab_icon_news_sel2" width="22" height="22"/>
+        <image name="tab_icon_shop_nro" width="22" height="22"/>
+        <image name="tab_icon_shop_sel" width="22" height="22"/>
+        <image name="tab_me_nro" width="22" height="22"/>
+        <image name="tab_me_sel" width="22" height="22"/>
     </resources>
 </document>
