@@ -1,0 +1,6 @@
+framework module Pods____Tests {
+  umbrella header "Pods-智能锁Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

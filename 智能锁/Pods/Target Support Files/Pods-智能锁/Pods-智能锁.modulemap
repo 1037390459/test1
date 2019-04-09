@@ -1,0 +1,6 @@
+framework module Pods____ {
+  umbrella header "Pods-智能锁-umbrella.h"
+
+  export *
+  module * { export * }
+}

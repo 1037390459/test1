@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E67ACD498CCFA74BE86E290 /* libPods-智能锁Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E487FA17C6F877C9286F151 /* libPods-智能锁Tests.a */; };
+		7B01F68B2258E4EF0064768C /* UIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B01F6892258E4EF0064768C /* UIUtils.m */; };
+		7B01F68E2258E9130064768C /* SLFriendListTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B01F68D2258E9130064768C /* SLFriendListTableController.m */; };
+		7B01F6922258EEFE0064768C /* Theme.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B01F6912258EEFE0064768C /* Theme.m */; };
+		7B01F697225904950064768C /* SLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B01F696225904950064768C /* SLLoginViewController.m */; };
+		7B01F69A225904A90064768C /* SLSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B01F699225904A90064768C /* SLSignUpViewController.m */; };
+		7B01F69D225904B60064768C /* SLForgetPwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B01F69C225904B60064768C /* SLForgetPwdViewController.m */; };
+		7B091D76225D000D00F4433C /* SLHelpType1Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B091D74225D000D00F4433C /* SLHelpType1Cell.m */; };
+		7B091D77225D000D00F4433C /* SLHelpType1Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B091D75225D000D00F4433C /* SLHelpType1Cell.xib */; };
+		7B091D7B225D002500F4433C /* SLHelpType2Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B091D79225D002500F4433C /* SLHelpType2Cell.m */; };
+		7B091D7C225D002500F4433C /* SLHelpType2Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B091D7A225D002500F4433C /* SLHelpType2Cell.xib */; };
+		7B091D7F225D0F2900F4433C /* SLHelpModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B091D7E225D0F2900F4433C /* SLHelpModel.m */; };
 		7B39C3E72250DA0E008633B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B39C3E62250DA0E008633B9 /* AppDelegate.m */; };
 		7B39C3EA2250DA0E008633B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B39C3E92250DA0E008633B9 /* ViewController.m */; };
 		7B39C3ED2250DA0E008633B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B39C3EB2250DA0E008633B9 /* Main.storyboard */; };
@@ -16,6 +28,17 @@
 		7B39C3FF2250DA11008633B9 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B39C3FE2250DA11008633B9 /* ___Tests.m */; };
 		7B39C40A2250DA11008633B9 /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B39C4092250DA11008633B9 /* ___UITests.m */; };
 		7B39C4182250E1D8008633B9 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B39C4172250E1D8008633B9 /* Login.storyboard */; };
+		7BD0F4862254EE3700E13E48 /* SLAccountSafeTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD0F4852254EE3700E13E48 /* SLAccountSafeTableController.m */; };
+		7BE2EDCC2254F7BF00886E72 /* SLBaseTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE2EDCB2254F7BF00886E72 /* SLBaseTableController.m */; };
+		7BE2EDCF2254F7D700886E72 /* SLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE2EDCE2254F7D700886E72 /* SLBaseViewController.m */; };
+		7BE2EDD22254F8BB00886E72 /* SLMineTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE2EDD12254F8BB00886E72 /* SLMineTableController.m */; };
+		7BE2EDD52254FCA400886E72 /* SLUserProfileTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE2EDD42254FCA400886E72 /* SLUserProfileTableController.m */; };
+		7BE2EDD82254FDE900886E72 /* SLNikeNameTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE2EDD72254FDE900886E72 /* SLNikeNameTableController.m */; };
+		7BE2EDDB22550C4600886E72 /* SLFeedBackTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE2EDDA22550C4600886E72 /* SLFeedBackTableController.m */; };
+		7BE2EDDE22550CEC00886E72 /* SLHelpTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE2EDDD22550CEC00886E72 /* SLHelpTableController.m */; };
+		7BE2EDE122550E2E00886E72 /* SLAboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE2EDE022550E2E00886E72 /* SLAboutUsViewController.m */; };
+		AAD0F0D07F79ABE73D2BD30C /* libPods-智能锁.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 827211552AE360E1F28DD3DC /* libPods-智能锁.a */; };
+		F93A05A6EE770EC16E0C57CF /* libPods-智能锁UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98BB9392EF1779F7F11C69D8 /* libPods-智能锁UITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +59,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16A5101931C4ACE1E8AA5137 /* Pods-智能锁UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-智能锁UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-智能锁UITests/Pods-智能锁UITests.release.xcconfig"; sourceTree = "<group>"; };
+		3E487FA17C6F877C9286F151 /* libPods-智能锁Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-智能锁Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6F4B01DAEA07A399279C84 /* Pods-智能锁.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-智能锁.debug.xcconfig"; path = "Pods/Target Support Files/Pods-智能锁/Pods-智能锁.debug.xcconfig"; sourceTree = "<group>"; };
+		6048BD8C0F0091FBB1E6020B /* Pods-智能锁Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-智能锁Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-智能锁Tests/Pods-智能锁Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B01F6862258B38F0064768C /* Pods_智能锁.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = "Pods_智能锁.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B01F6892258E4EF0064768C /* UIUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIUtils.m; sourceTree = "<group>"; };
+		7B01F68A2258E4EF0064768C /* UIUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIUtils.h; sourceTree = "<group>"; };
+		7B01F68C2258E9130064768C /* SLFriendListTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLFriendListTableController.h; sourceTree = "<group>"; };
+		7B01F68D2258E9130064768C /* SLFriendListTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLFriendListTableController.m; sourceTree = "<group>"; };
+		7B01F68F2258EE300064768C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7B01F6902258EEFE0064768C /* Theme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Theme.h; sourceTree = "<group>"; };
+		7B01F6912258EEFE0064768C /* Theme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Theme.m; sourceTree = "<group>"; };
+		7B01F695225904950064768C /* SLLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLLoginViewController.h; sourceTree = "<group>"; };
+		7B01F696225904950064768C /* SLLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLLoginViewController.m; sourceTree = "<group>"; };
+		7B01F698225904A90064768C /* SLSignUpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLSignUpViewController.h; sourceTree = "<group>"; };
+		7B01F699225904A90064768C /* SLSignUpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLSignUpViewController.m; sourceTree = "<group>"; };
+		7B01F69B225904B60064768C /* SLForgetPwdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLForgetPwdViewController.h; sourceTree = "<group>"; };
+		7B01F69C225904B60064768C /* SLForgetPwdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLForgetPwdViewController.m; sourceTree = "<group>"; };
+		7B091D73225D000D00F4433C /* SLHelpType1Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLHelpType1Cell.h; sourceTree = "<group>"; };
+		7B091D74225D000D00F4433C /* SLHelpType1Cell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLHelpType1Cell.m; sourceTree = "<group>"; };
+		7B091D75225D000D00F4433C /* SLHelpType1Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SLHelpType1Cell.xib; sourceTree = "<group>"; };
+		7B091D78225D002500F4433C /* SLHelpType2Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLHelpType2Cell.h; sourceTree = "<group>"; };
+		7B091D79225D002500F4433C /* SLHelpType2Cell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLHelpType2Cell.m; sourceTree = "<group>"; };
+		7B091D7A225D002500F4433C /* SLHelpType2Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SLHelpType2Cell.xib; sourceTree = "<group>"; };
+		7B091D7D225D0F2900F4433C /* SLHelpModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLHelpModel.h; sourceTree = "<group>"; };
+		7B091D7E225D0F2900F4433C /* SLHelpModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLHelpModel.m; sourceTree = "<group>"; };
 		7B39C3E22250DA0E008633B9 /* 智能锁.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "智能锁.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B39C3E52250DA0E008633B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7B39C3E62250DA0E008633B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +102,29 @@
 		7B39C4092250DA11008633B9 /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
 		7B39C40B2250DA11008633B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B39C4172250E1D8008633B9 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		7BD0F4842254EE3700E13E48 /* SLAccountSafeTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLAccountSafeTableController.h; sourceTree = "<group>"; };
+		7BD0F4852254EE3700E13E48 /* SLAccountSafeTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLAccountSafeTableController.m; sourceTree = "<group>"; };
+		7BE2EDCA2254F7BF00886E72 /* SLBaseTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLBaseTableController.h; sourceTree = "<group>"; };
+		7BE2EDCB2254F7BF00886E72 /* SLBaseTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLBaseTableController.m; sourceTree = "<group>"; };
+		7BE2EDCD2254F7D700886E72 /* SLBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLBaseViewController.h; sourceTree = "<group>"; };
+		7BE2EDCE2254F7D700886E72 /* SLBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLBaseViewController.m; sourceTree = "<group>"; };
+		7BE2EDD02254F8BB00886E72 /* SLMineTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLMineTableController.h; sourceTree = "<group>"; };
+		7BE2EDD12254F8BB00886E72 /* SLMineTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLMineTableController.m; sourceTree = "<group>"; };
+		7BE2EDD32254FCA400886E72 /* SLUserProfileTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLUserProfileTableController.h; sourceTree = "<group>"; };
+		7BE2EDD42254FCA400886E72 /* SLUserProfileTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLUserProfileTableController.m; sourceTree = "<group>"; };
+		7BE2EDD62254FDE900886E72 /* SLNikeNameTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLNikeNameTableController.h; sourceTree = "<group>"; };
+		7BE2EDD72254FDE900886E72 /* SLNikeNameTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLNikeNameTableController.m; sourceTree = "<group>"; };
+		7BE2EDD922550C4600886E72 /* SLFeedBackTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLFeedBackTableController.h; sourceTree = "<group>"; };
+		7BE2EDDA22550C4600886E72 /* SLFeedBackTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLFeedBackTableController.m; sourceTree = "<group>"; };
+		7BE2EDDC22550CEC00886E72 /* SLHelpTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLHelpTableController.h; sourceTree = "<group>"; };
+		7BE2EDDD22550CEC00886E72 /* SLHelpTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLHelpTableController.m; sourceTree = "<group>"; };
+		7BE2EDDF22550E2E00886E72 /* SLAboutUsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLAboutUsViewController.h; sourceTree = "<group>"; };
+		7BE2EDE022550E2E00886E72 /* SLAboutUsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLAboutUsViewController.m; sourceTree = "<group>"; };
+		7FCF78F11EC0D8BD8A5051D6 /* Pods-智能锁.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-智能锁.release.xcconfig"; path = "Pods/Target Support Files/Pods-智能锁/Pods-智能锁.release.xcconfig"; sourceTree = "<group>"; };
+		827211552AE360E1F28DD3DC /* libPods-智能锁.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-智能锁.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98BB9392EF1779F7F11C69D8 /* libPods-智能锁UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-智能锁UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A74F214CC384F9E3C8F0B7BC /* Pods-智能锁Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-智能锁Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-智能锁Tests/Pods-智能锁Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FE3EB3BE2284710B109E22A3 /* Pods-智能锁UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-智能锁UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-智能锁UITests/Pods-智能锁UITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAD0F0D07F79ABE73D2BD30C /* libPods-智能锁.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E67ACD498CCFA74BE86E290 /* libPods-智能锁Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +148,84 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F93A05A6EE770EC16E0C57CF /* libPods-智能锁UITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1923C501FB3BCFF1CF9A90EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C6F4B01DAEA07A399279C84 /* Pods-智能锁.debug.xcconfig */,
+				7FCF78F11EC0D8BD8A5051D6 /* Pods-智能锁.release.xcconfig */,
+				6048BD8C0F0091FBB1E6020B /* Pods-智能锁Tests.debug.xcconfig */,
+				A74F214CC384F9E3C8F0B7BC /* Pods-智能锁Tests.release.xcconfig */,
+				FE3EB3BE2284710B109E22A3 /* Pods-智能锁UITests.debug.xcconfig */,
+				16A5101931C4ACE1E8AA5137 /* Pods-智能锁UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		65B13E553B2EF4C2DF79A12A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B01F6862258B38F0064768C /* Pods_智能锁.framework */,
+				827211552AE360E1F28DD3DC /* libPods-智能锁.a */,
+				3E487FA17C6F877C9286F151 /* libPods-智能锁Tests.a */,
+				98BB9392EF1779F7F11C69D8 /* libPods-智能锁UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B01F6882258E4DA0064768C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7B01F68A2258E4EF0064768C /* UIUtils.h */,
+				7B01F6892258E4EF0064768C /* UIUtils.m */,
+				7B01F6902258EEFE0064768C /* Theme.h */,
+				7B01F6912258EEFE0064768C /* Theme.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7B01F693225904380064768C /* login */ = {
+			isa = PBXGroup;
+			children = (
+				7B01F695225904950064768C /* SLLoginViewController.h */,
+				7B01F696225904950064768C /* SLLoginViewController.m */,
+				7B01F698225904A90064768C /* SLSignUpViewController.h */,
+				7B01F699225904A90064768C /* SLSignUpViewController.m */,
+				7B01F69B225904B60064768C /* SLForgetPwdViewController.h */,
+				7B01F69C225904B60064768C /* SLForgetPwdViewController.m */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		7B01F6942259043E0064768C /* mine */ = {
+			isa = PBXGroup;
+			children = (
+				7BE2EDD02254F8BB00886E72 /* SLMineTableController.h */,
+				7BE2EDD12254F8BB00886E72 /* SLMineTableController.m */,
+				7BD0F4842254EE3700E13E48 /* SLAccountSafeTableController.h */,
+				7BD0F4852254EE3700E13E48 /* SLAccountSafeTableController.m */,
+				7BE2EDD32254FCA400886E72 /* SLUserProfileTableController.h */,
+				7BE2EDD42254FCA400886E72 /* SLUserProfileTableController.m */,
+				7BE2EDD62254FDE900886E72 /* SLNikeNameTableController.h */,
+				7BE2EDD72254FDE900886E72 /* SLNikeNameTableController.m */,
+				7BE2EDD922550C4600886E72 /* SLFeedBackTableController.h */,
+				7BE2EDDA22550C4600886E72 /* SLFeedBackTableController.m */,
+				7BE2EDDC22550CEC00886E72 /* SLHelpTableController.h */,
+				7BE2EDDD22550CEC00886E72 /* SLHelpTableController.m */,
+				7BE2EDDF22550E2E00886E72 /* SLAboutUsViewController.h */,
+				7BE2EDE022550E2E00886E72 /* SLAboutUsViewController.m */,
+				7B01F68C2258E9130064768C /* SLFriendListTableController.h */,
+				7B01F68D2258E9130064768C /* SLFriendListTableController.m */,
+			);
+			path = mine;
+			sourceTree = "<group>";
+		};
 		7B39C3D92250DA0E008633B9 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +233,8 @@
 				7B39C3FD2250DA11008633B9 /* 智能锁Tests */,
 				7B39C4082250DA11008633B9 /* 智能锁UITests */,
 				7B39C3E32250DA0E008633B9 /* Products */,
+				1923C501FB3BCFF1CF9A90EF /* Pods */,
+				65B13E553B2EF4C2DF79A12A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +253,10 @@
 			children = (
 				7B39C3E52250DA0E008633B9 /* AppDelegate.h */,
 				7B39C3E62250DA0E008633B9 /* AppDelegate.m */,
+				7B01F6882258E4DA0064768C /* Utils */,
+				7BD0F4822254EDD600E13E48 /* model */,
+				7BD0F4812254EDB900E13E48 /* controller */,
+				7BD0F4832254EDE100E13E48 /* view */,
 				7B39C3E82250DA0E008633B9 /* ViewController.h */,
 				7B39C3E92250DA0E008633B9 /* ViewController.m */,
 				7B39C3EB2250DA0E008633B9 /* Main.storyboard */,
@@ -112,6 +264,7 @@
 				7B39C3EE2250DA11008633B9 /* Assets.xcassets */,
 				7B39C3F02250DA11008633B9 /* LaunchScreen.storyboard */,
 				7B39C3F32250DA11008633B9 /* Info.plist */,
+				7B01F68F2258EE300064768C /* PrefixHeader.pch */,
 				7B39C3F42250DA11008633B9 /* main.m */,
 			);
 			path = "智能锁";
@@ -135,6 +288,49 @@
 			path = "智能锁UITests";
 			sourceTree = "<group>";
 		};
+		7BD0F4812254EDB900E13E48 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				7B01F6942259043E0064768C /* mine */,
+				7B01F693225904380064768C /* login */,
+				7BD0F4872254F45B00E13E48 /* base */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		7BD0F4822254EDD600E13E48 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				7B091D7D225D0F2900F4433C /* SLHelpModel.h */,
+				7B091D7E225D0F2900F4433C /* SLHelpModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		7BD0F4832254EDE100E13E48 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				7B091D73225D000D00F4433C /* SLHelpType1Cell.h */,
+				7B091D74225D000D00F4433C /* SLHelpType1Cell.m */,
+				7B091D75225D000D00F4433C /* SLHelpType1Cell.xib */,
+				7B091D78225D002500F4433C /* SLHelpType2Cell.h */,
+				7B091D79225D002500F4433C /* SLHelpType2Cell.m */,
+				7B091D7A225D002500F4433C /* SLHelpType2Cell.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		7BD0F4872254F45B00E13E48 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				7BE2EDCA2254F7BF00886E72 /* SLBaseTableController.h */,
+				7BE2EDCB2254F7BF00886E72 /* SLBaseTableController.m */,
+				7BE2EDCD2254F7D700886E72 /* SLBaseViewController.h */,
+				7BE2EDCE2254F7D700886E72 /* SLBaseViewController.m */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,6 +338,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B39C40E2250DA11008633B9 /* Build configuration list for PBXNativeTarget "智能锁" */;
 			buildPhases = (
+				DBA66254499E31BBEB703D86 /* [CP] Check Pods Manifest.lock */,
 				7B39C3DE2250DA0E008633B9 /* Sources */,
 				7B39C3DF2250DA0E008633B9 /* Frameworks */,
 				7B39C3E02250DA0E008633B9 /* Resources */,
@@ -159,6 +356,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B39C4112250DA11008633B9 /* Build configuration list for PBXNativeTarget "智能锁Tests" */;
 			buildPhases = (
+				CD1CADA0F312EE4DF9A5A1EC /* [CP] Check Pods Manifest.lock */,
 				7B39C3F62250DA11008633B9 /* Sources */,
 				7B39C3F72250DA11008633B9 /* Frameworks */,
 				7B39C3F82250DA11008633B9 /* Resources */,
@@ -177,6 +375,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B39C4142250DA11008633B9 /* Build configuration list for PBXNativeTarget "智能锁UITests" */;
 			buildPhases = (
+				2BABE1BDCA0151B2C3A22A91 /* [CP] Check Pods Manifest.lock */,
 				7B39C4012250DA11008633B9 /* Sources */,
 				7B39C4022250DA11008633B9 /* Frameworks */,
 				7B39C4032250DA11008633B9 /* Resources */,
@@ -240,6 +439,8 @@
 			files = (
 				7B39C4182250E1D8008633B9 /* Login.storyboard in Resources */,
 				7B39C3F22250DA11008633B9 /* LaunchScreen.storyboard in Resources */,
+				7B091D7C225D002500F4433C /* SLHelpType2Cell.xib in Resources */,
+				7B091D77225D000D00F4433C /* SLHelpType1Cell.xib in Resources */,
 				7B39C3EF2250DA11008633B9 /* Assets.xcassets in Resources */,
 				7B39C3ED2250DA0E008633B9 /* Main.storyboard in Resources */,
 			);
@@ -261,14 +462,101 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2BABE1BDCA0151B2C3A22A91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-智能锁UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD1CADA0F312EE4DF9A5A1EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-智能锁Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBA66254499E31BBEB703D86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-智能锁-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7B39C3DE2250DA0E008633B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B01F68B2258E4EF0064768C /* UIUtils.m in Sources */,
+				7BE2EDCF2254F7D700886E72 /* SLBaseViewController.m in Sources */,
+				7B01F69A225904A90064768C /* SLSignUpViewController.m in Sources */,
+				7BE2EDE122550E2E00886E72 /* SLAboutUsViewController.m in Sources */,
+				7B091D7F225D0F2900F4433C /* SLHelpModel.m in Sources */,
+				7B091D7B225D002500F4433C /* SLHelpType2Cell.m in Sources */,
+				7B01F6922258EEFE0064768C /* Theme.m in Sources */,
+				7BE2EDD22254F8BB00886E72 /* SLMineTableController.m in Sources */,
+				7BE2EDDB22550C4600886E72 /* SLFeedBackTableController.m in Sources */,
+				7B01F68E2258E9130064768C /* SLFriendListTableController.m in Sources */,
+				7B01F69D225904B60064768C /* SLForgetPwdViewController.m in Sources */,
+				7BD0F4862254EE3700E13E48 /* SLAccountSafeTableController.m in Sources */,
 				7B39C3EA2250DA0E008633B9 /* ViewController.m in Sources */,
+				7B01F697225904950064768C /* SLLoginViewController.m in Sources */,
+				7BE2EDD82254FDE900886E72 /* SLNikeNameTableController.m in Sources */,
+				7BE2EDD52254FCA400886E72 /* SLUserProfileTableController.m in Sources */,
 				7B39C3F52250DA11008633B9 /* main.m in Sources */,
+				7BE2EDCC2254F7BF00886E72 /* SLBaseTableController.m in Sources */,
+				7BE2EDDE22550CEC00886E72 /* SLHelpTableController.m in Sources */,
 				7B39C3E72250DA0E008633B9 /* AppDelegate.m in Sources */,
+				7B091D76225D000D00F4433C /* SLHelpType1Cell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,10 +725,13 @@
 		};
 		7B39C40F2250DA11008633B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C6F4B01DAEA07A399279C84 /* Pods-智能锁.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LS35ZZ469J;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREFIX_HEADER = "智能锁/PrefixHeader.pch";
 				INFOPLIST_FILE = "智能锁/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,10 +745,14 @@
 		};
 		7B39C4102250DA11008633B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FCF78F11EC0D8BD8A5051D6 /* Pods-智能锁.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LS35ZZ469J;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(inherited)";
+				GCC_PREFIX_HEADER = "智能锁/PrefixHeader.pch";
 				INFOPLIST_FILE = "智能锁/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -471,6 +766,7 @@
 		};
 		7B39C4122250DA11008633B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6048BD8C0F0091FBB1E6020B /* Pods-智能锁Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -490,6 +786,7 @@
 		};
 		7B39C4132250DA11008633B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A74F214CC384F9E3C8F0B7BC /* Pods-智能锁Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -509,6 +806,7 @@
 		};
 		7B39C4152250DA11008633B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE3EB3BE2284710B109E22A3 /* Pods-智能锁UITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LS35ZZ469J;
@@ -527,6 +825,7 @@
 		};
 		7B39C4162250DA11008633B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16A5101931C4ACE1E8AA5137 /* Pods-智能锁UITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LS35ZZ469J;
