@@ -1,8 +1,8 @@
 //
-//  SLHelpType2Cell.h
+//  SLUserNickPickViewController.h
 //  智能锁
 //
-//  Created by million on 2019/4/10.
+//  Created by million on 2019/4/11.
 //  Copyright © 2019 million. All rights reserved.
 //
 
@@ -10,9 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SLHelpType2Cell : UITableViewCell
-
-- (void)configureCellWithTitle:(NSString *)title;
+@interface SLUserNickPickViewController : UIViewController
 
 @end
 

@@ -14,12 +14,16 @@
 		7B01F697225904950064768C /* SLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B01F696225904950064768C /* SLLoginViewController.m */; };
 		7B01F69A225904A90064768C /* SLSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B01F699225904A90064768C /* SLSignUpViewController.m */; };
 		7B01F69D225904B60064768C /* SLForgetPwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B01F69C225904B60064768C /* SLForgetPwdViewController.m */; };
-		7B091D76225D000D00F4433C /* SLHelpType1Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B091D74225D000D00F4433C /* SLHelpType1Cell.m */; };
-		7B091D7B225D002500F4433C /* SLHelpType2Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B091D79225D002500F4433C /* SLHelpType2Cell.m */; };
-		7B091D7C225D002500F4433C /* SLHelpType2Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B091D7A225D002500F4433C /* SLHelpType2Cell.xib */; };
-		7B091D7F225D0F2900F4433C /* SLHelpModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B091D7E225D0F2900F4433C /* SLHelpModel.m */; };
+		7B091D7B225D002500F4433C /* SLHelpTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B091D79225D002500F4433C /* SLHelpTypeCell.m */; };
+		7B091D7C225D002500F4433C /* SLHelpTypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B091D7A225D002500F4433C /* SLHelpTypeCell.xib */; };
+		7B091D84225E238300F4433C /* SLSectionHeaderFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B091D83225E238300F4433C /* SLSectionHeaderFooterView.xib */; };
+		7B091D86225E289B00F4433C /* SLSectionHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B091D85225E289A00F4433C /* SLSectionHeaderFooterView.m */; };
+		7B091D8B225E390300F4433C /* SLDevicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B091D8A225E390300F4433C /* SLDevicesViewController.m */; };
+		7B091D8E225E3EFF00F4433C /* SLSettingsTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B091D8D225E3EFF00F4433C /* SLSettingsTableController.m */; };
+		7B091D91225E4D5E00F4433C /* SLUserNickPickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B091D90225E4D5E00F4433C /* SLUserNickPickViewController.m */; };
+		7B091D94225E4D6B00F4433C /* SLUserNickEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B091D93225E4D6B00F4433C /* SLUserNickEditViewController.m */; };
+		7B091D97225E500B00F4433C /* SLAdminTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B091D96225E500B00F4433C /* SLAdminTableController.m */; };
 		7B39C3E72250DA0E008633B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B39C3E62250DA0E008633B9 /* AppDelegate.m */; };
-		7B39C3EA2250DA0E008633B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B39C3E92250DA0E008633B9 /* ViewController.m */; };
 		7B39C3ED2250DA0E008633B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B39C3EB2250DA0E008633B9 /* Main.storyboard */; };
 		7B39C3EF2250DA11008633B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B39C3EE2250DA11008633B9 /* Assets.xcassets */; };
 		7B39C3F22250DA11008633B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B39C3F02250DA11008633B9 /* LaunchScreen.storyboard */; };
@@ -76,18 +80,25 @@
 		7B01F699225904A90064768C /* SLSignUpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLSignUpViewController.m; sourceTree = "<group>"; };
 		7B01F69B225904B60064768C /* SLForgetPwdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLForgetPwdViewController.h; sourceTree = "<group>"; };
 		7B01F69C225904B60064768C /* SLForgetPwdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLForgetPwdViewController.m; sourceTree = "<group>"; };
-		7B091D73225D000D00F4433C /* SLHelpType1Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLHelpType1Cell.h; sourceTree = "<group>"; };
-		7B091D74225D000D00F4433C /* SLHelpType1Cell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLHelpType1Cell.m; sourceTree = "<group>"; };
-		7B091D78225D002500F4433C /* SLHelpType2Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLHelpType2Cell.h; sourceTree = "<group>"; };
-		7B091D79225D002500F4433C /* SLHelpType2Cell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLHelpType2Cell.m; sourceTree = "<group>"; };
-		7B091D7A225D002500F4433C /* SLHelpType2Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SLHelpType2Cell.xib; sourceTree = "<group>"; };
-		7B091D7D225D0F2900F4433C /* SLHelpModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLHelpModel.h; sourceTree = "<group>"; };
-		7B091D7E225D0F2900F4433C /* SLHelpModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLHelpModel.m; sourceTree = "<group>"; };
+		7B091D78225D002500F4433C /* SLHelpTypeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLHelpTypeCell.h; sourceTree = "<group>"; };
+		7B091D79225D002500F4433C /* SLHelpTypeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLHelpTypeCell.m; sourceTree = "<group>"; };
+		7B091D7A225D002500F4433C /* SLHelpTypeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SLHelpTypeCell.xib; sourceTree = "<group>"; };
+		7B091D80225E237000F4433C /* SLSectionHeaderFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLSectionHeaderFooterView.h; sourceTree = "<group>"; };
+		7B091D83225E238300F4433C /* SLSectionHeaderFooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SLSectionHeaderFooterView.xib; sourceTree = "<group>"; };
+		7B091D85225E289A00F4433C /* SLSectionHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLSectionHeaderFooterView.m; sourceTree = "<group>"; };
+		7B091D89225E390300F4433C /* SLDevicesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLDevicesViewController.h; sourceTree = "<group>"; };
+		7B091D8A225E390300F4433C /* SLDevicesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLDevicesViewController.m; sourceTree = "<group>"; };
+		7B091D8C225E3EFF00F4433C /* SLSettingsTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLSettingsTableController.h; sourceTree = "<group>"; };
+		7B091D8D225E3EFF00F4433C /* SLSettingsTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLSettingsTableController.m; sourceTree = "<group>"; };
+		7B091D8F225E4D5E00F4433C /* SLUserNickPickViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLUserNickPickViewController.h; sourceTree = "<group>"; };
+		7B091D90225E4D5E00F4433C /* SLUserNickPickViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLUserNickPickViewController.m; sourceTree = "<group>"; };
+		7B091D92225E4D6B00F4433C /* SLUserNickEditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLUserNickEditViewController.h; sourceTree = "<group>"; };
+		7B091D93225E4D6B00F4433C /* SLUserNickEditViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLUserNickEditViewController.m; sourceTree = "<group>"; };
+		7B091D95225E500B00F4433C /* SLAdminTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLAdminTableController.h; sourceTree = "<group>"; };
+		7B091D96225E500B00F4433C /* SLAdminTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLAdminTableController.m; sourceTree = "<group>"; };
 		7B39C3E22250DA0E008633B9 /* 智能锁.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "智能锁.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B39C3E52250DA0E008633B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7B39C3E62250DA0E008633B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7B39C3E82250DA0E008633B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7B39C3E92250DA0E008633B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7B39C3EC2250DA0E008633B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B39C3EE2250DA11008633B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B39C3F12250DA11008633B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -224,6 +235,23 @@
 			path = mine;
 			sourceTree = "<group>";
 		};
+		7B091D88225E387000F4433C /* devices */ = {
+			isa = PBXGroup;
+			children = (
+				7B091D89225E390300F4433C /* SLDevicesViewController.h */,
+				7B091D8A225E390300F4433C /* SLDevicesViewController.m */,
+				7B091D8C225E3EFF00F4433C /* SLSettingsTableController.h */,
+				7B091D8D225E3EFF00F4433C /* SLSettingsTableController.m */,
+				7B091D95225E500B00F4433C /* SLAdminTableController.h */,
+				7B091D96225E500B00F4433C /* SLAdminTableController.m */,
+				7B091D8F225E4D5E00F4433C /* SLUserNickPickViewController.h */,
+				7B091D90225E4D5E00F4433C /* SLUserNickPickViewController.m */,
+				7B091D92225E4D6B00F4433C /* SLUserNickEditViewController.h */,
+				7B091D93225E4D6B00F4433C /* SLUserNickEditViewController.m */,
+			);
+			path = devices;
+			sourceTree = "<group>";
+		};
 		7B39C3D92250DA0E008633B9 = {
 			isa = PBXGroup;
 			children = (
@@ -255,8 +283,6 @@
 				7BD0F4822254EDD600E13E48 /* model */,
 				7BD0F4812254EDB900E13E48 /* controller */,
 				7BD0F4832254EDE100E13E48 /* view */,
-				7B39C3E82250DA0E008633B9 /* ViewController.h */,
-				7B39C3E92250DA0E008633B9 /* ViewController.m */,
 				7B39C3EB2250DA0E008633B9 /* Main.storyboard */,
 				7B39C4172250E1D8008633B9 /* Login.storyboard */,
 				7B39C3EE2250DA11008633B9 /* Assets.xcassets */,
@@ -289,6 +315,7 @@
 		7BD0F4812254EDB900E13E48 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				7B091D88225E387000F4433C /* devices */,
 				7B01F6942259043E0064768C /* mine */,
 				7B01F693225904380064768C /* login */,
 				7BD0F4872254F45B00E13E48 /* base */,
@@ -299,8 +326,6 @@
 		7BD0F4822254EDD600E13E48 /* model */ = {
 			isa = PBXGroup;
 			children = (
-				7B091D7D225D0F2900F4433C /* SLHelpModel.h */,
-				7B091D7E225D0F2900F4433C /* SLHelpModel.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -308,11 +333,12 @@
 		7BD0F4832254EDE100E13E48 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				7B091D73225D000D00F4433C /* SLHelpType1Cell.h */,
-				7B091D74225D000D00F4433C /* SLHelpType1Cell.m */,
-				7B091D78225D002500F4433C /* SLHelpType2Cell.h */,
-				7B091D79225D002500F4433C /* SLHelpType2Cell.m */,
-				7B091D7A225D002500F4433C /* SLHelpType2Cell.xib */,
+				7B091D80225E237000F4433C /* SLSectionHeaderFooterView.h */,
+				7B091D85225E289A00F4433C /* SLSectionHeaderFooterView.m */,
+				7B091D83225E238300F4433C /* SLSectionHeaderFooterView.xib */,
+				7B091D78225D002500F4433C /* SLHelpTypeCell.h */,
+				7B091D79225D002500F4433C /* SLHelpTypeCell.m */,
+				7B091D7A225D002500F4433C /* SLHelpTypeCell.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -436,7 +462,8 @@
 			files = (
 				7B39C4182250E1D8008633B9 /* Login.storyboard in Resources */,
 				7B39C3F22250DA11008633B9 /* LaunchScreen.storyboard in Resources */,
-				7B091D7C225D002500F4433C /* SLHelpType2Cell.xib in Resources */,
+				7B091D7C225D002500F4433C /* SLHelpTypeCell.xib in Resources */,
+				7B091D84225E238300F4433C /* SLSectionHeaderFooterView.xib in Resources */,
 				7B39C3EF2250DA11008633B9 /* Assets.xcassets in Resources */,
 				7B39C3ED2250DA0E008633B9 /* Main.storyboard in Resources */,
 			);
@@ -536,23 +563,26 @@
 				7BE2EDCF2254F7D700886E72 /* SLBaseViewController.m in Sources */,
 				7B01F69A225904A90064768C /* SLSignUpViewController.m in Sources */,
 				7BE2EDE122550E2E00886E72 /* SLAboutUsViewController.m in Sources */,
-				7B091D7F225D0F2900F4433C /* SLHelpModel.m in Sources */,
-				7B091D7B225D002500F4433C /* SLHelpType2Cell.m in Sources */,
+				7B091D91225E4D5E00F4433C /* SLUserNickPickViewController.m in Sources */,
+				7B091D7B225D002500F4433C /* SLHelpTypeCell.m in Sources */,
 				7B01F6922258EEFE0064768C /* Theme.m in Sources */,
 				7BE2EDD22254F8BB00886E72 /* SLMineTableController.m in Sources */,
 				7BE2EDDB22550C4600886E72 /* SLFeedBackTableController.m in Sources */,
 				7B01F68E2258E9130064768C /* SLFriendListTableController.m in Sources */,
 				7B01F69D225904B60064768C /* SLForgetPwdViewController.m in Sources */,
 				7BD0F4862254EE3700E13E48 /* SLAccountSafeTableController.m in Sources */,
-				7B39C3EA2250DA0E008633B9 /* ViewController.m in Sources */,
+				7B091D8B225E390300F4433C /* SLDevicesViewController.m in Sources */,
 				7B01F697225904950064768C /* SLLoginViewController.m in Sources */,
 				7BE2EDD82254FDE900886E72 /* SLNikeNameTableController.m in Sources */,
+				7B091D97225E500B00F4433C /* SLAdminTableController.m in Sources */,
+				7B091D86225E289B00F4433C /* SLSectionHeaderFooterView.m in Sources */,
 				7BE2EDD52254FCA400886E72 /* SLUserProfileTableController.m in Sources */,
+				7B091D94225E4D6B00F4433C /* SLUserNickEditViewController.m in Sources */,
 				7B39C3F52250DA11008633B9 /* main.m in Sources */,
 				7BE2EDCC2254F7BF00886E72 /* SLBaseTableController.m in Sources */,
+				7B091D8E225E3EFF00F4433C /* SLSettingsTableController.m in Sources */,
 				7BE2EDDE22550CEC00886E72 /* SLHelpTableController.m in Sources */,
 				7B39C3E72250DA0E008633B9 /* AppDelegate.m in Sources */,
-				7B091D76225D000D00F4433C /* SLHelpType1Cell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

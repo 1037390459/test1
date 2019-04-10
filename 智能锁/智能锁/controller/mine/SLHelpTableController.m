@@ -7,9 +7,8 @@
 //
 
 #import "SLHelpTableController.h"
-#import "SLHelpType1Cell.h"
-#import "SLHelpType2Cell.h"
-#import "SLHelpModel.h"
+#import "SLSectionHeaderFooterView.h"
+#import "SLHelpTypeCell.h"
 
 @interface SLHelpTableController ()
 
@@ -25,6 +24,8 @@
         _mdata = @[
                    @{@"header":@"关于充值的常见问题",
                      @"items":@[@"1、客户提供详细文案客户提供详细文案客户提供详细文案客户提供详细文案客户提供详细文案客户提供详细文案客户供详细文案客户提供详细文案",@"11、客户提供详细文案客户提供详细文案客户提供详细文案客户提供详细文案客户提供详细文案客户提供详细文案客户供详细文案客户提供详细文案"]},
+                   @{@"header":@"关于充值的常见问题",
+                     @"items":@[@"2、客户提供详细文案客户提供详细文案客户提供详细文案客户提供详细文案客户提供详细文案客户提供详细文案客户供详细文案客户提供详细文案"]},
                    @{@"header":@"关于充值的常见问题",
                      @"items":@[@"2、客户提供详细文案客户提供详细文案客户提供详细文案客户提供详细文案客户提供详细文案客户提供详细文案客户供详细文案客户提供详细文案"]},
                    ];
@@ -43,8 +44,8 @@
     [super viewDidLoad];
     self.tableView.backgroundView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"bg.png"]];
     self.tableView.tableFooterView = [[UIView alloc]initWithFrame:CGRectZero];
-    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([SLHelpType1Cell class]) bundle:nil] forHeaderFooterViewReuseIdentifier:NSStringFromClass([SLHelpType1Cell class])];
-    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([SLHelpType2Cell class]) bundle:nil] forCellReuseIdentifier:NSStringFromClass([SLHelpType2Cell class])];
+    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([SLSectionHeaderFooterView class]) bundle:nil] forHeaderFooterViewReuseIdentifier:NSStringFromClass([SLSectionHeaderFooterView class])];
+    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([SLHelpTypeCell class]) bundle:nil] forCellReuseIdentifier:NSStringFromClass([SLHelpTypeCell class])];
 }
 
 #pragma mark tableview datasource & delegate
@@ -59,28 +60,37 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     NSString *title =  self.mdata[indexPath.section][@"items"][indexPath.row];
-    SLHelpType2Cell* cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([SLHelpType2Cell class])];
+    SLHelpTypeCell* cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([SLHelpTypeCell class])];
     [cell configureCellWithTitle:title];
     return cell;
 }
 
 -(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
-    SLHelpType1Cell *cell = [tableView dequeueReusableHeaderFooterViewWithIdentifier:NSStringFromClass([SLHelpType1Cell class])];
+    SLSectionHeaderFooterView *header = [tableView dequeueReusableHeaderFooterViewWithIdentifier:NSStringFromClass([SLSectionHeaderFooterView class])];
     NSString *title = self.mdata[section][@"header"];
-    [cell configureCellWithTitle:title];
-    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithActionBlock:^(id  _Nonnull sender) {
-        cell.selected = !cell.isSelected;
-        if (cell.isSelected) {
-            [self.expandSections addObject:@(section)];
-        }else{
+    header.titleLabel.text = title;
+    header.titleLabel.textColor = [UIColor colorWithHexString:@"#333333"];
+    header.titleLabel.font = [Theme pc_fontWithSize:14];
+    header.selected = [self.expandSections containsObject:@(section)];
+    UIImageView *imageView = header.imageView;
+    if (header.isSelected) {
+        imageView.transform = CGAffineTransformRotate(imageView.transform, M_PI);
+    }
+    @weakify(header);
+    header.onClickedListener = ^(id  _Nonnull sender) {
+        @strongify(header);
+        if (header.isSelected) {
             [self.expandSections removeObject:@(section)];
+        }else{
+             [self.expandSections addObject:@(section)];
         }
-        [self.tableView reloadSection:section withRowAnimation:UITableViewRowAnimationFade];
-    }];
-    [cell addGestureRecognizer:tap];
-    cell.backgroundColor = [UIColor redColor];
-    return cell;
+        [self.tableView reloadSection:section withRowAnimation:UITableViewRowAnimationAutomatic];
+    };
+    return header;
 }
 
+-(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+    return 59;
+}
 
 @end

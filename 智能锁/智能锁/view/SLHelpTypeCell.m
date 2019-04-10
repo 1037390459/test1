@@ -6,15 +6,15 @@
 //  Copyright © 2019 million. All rights reserved.
 //
 
-#import "SLHelpType2Cell.h"
+#import "SLHelpTypeCell.h"
 
-@interface SLHelpType2Cell ()
+@interface SLHelpTypeCell ()
 
 @property (weak, nonatomic) IBOutlet UILabel *lbl;
 
 @end
 
-@implementation SLHelpType2Cell
+@implementation SLHelpTypeCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];

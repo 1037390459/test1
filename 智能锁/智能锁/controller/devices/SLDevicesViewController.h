@@ -1,5 +1,5 @@
 //
-//  SLHelpType1Cell.h
+//  SLDevicesViewController.h
 //  智能锁
 //
 //  Created by million on 2019/4/10.
@@ -10,9 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SLHelpType1Cell : UITableViewHeaderFooterView
-
-- (void)configureCellWithTitle:(NSString *)title;
+@interface SLDevicesViewController : UIViewController
 
 @end
 
