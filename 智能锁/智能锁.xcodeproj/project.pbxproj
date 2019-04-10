@@ -15,7 +15,6 @@
 		7B01F69A225904A90064768C /* SLSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B01F699225904A90064768C /* SLSignUpViewController.m */; };
 		7B01F69D225904B60064768C /* SLForgetPwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B01F69C225904B60064768C /* SLForgetPwdViewController.m */; };
 		7B091D76225D000D00F4433C /* SLHelpType1Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B091D74225D000D00F4433C /* SLHelpType1Cell.m */; };
-		7B091D77225D000D00F4433C /* SLHelpType1Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B091D75225D000D00F4433C /* SLHelpType1Cell.xib */; };
 		7B091D7B225D002500F4433C /* SLHelpType2Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B091D79225D002500F4433C /* SLHelpType2Cell.m */; };
 		7B091D7C225D002500F4433C /* SLHelpType2Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B091D7A225D002500F4433C /* SLHelpType2Cell.xib */; };
 		7B091D7F225D0F2900F4433C /* SLHelpModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B091D7E225D0F2900F4433C /* SLHelpModel.m */; };
@@ -79,7 +78,6 @@
 		7B01F69C225904B60064768C /* SLForgetPwdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLForgetPwdViewController.m; sourceTree = "<group>"; };
 		7B091D73225D000D00F4433C /* SLHelpType1Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLHelpType1Cell.h; sourceTree = "<group>"; };
 		7B091D74225D000D00F4433C /* SLHelpType1Cell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLHelpType1Cell.m; sourceTree = "<group>"; };
-		7B091D75225D000D00F4433C /* SLHelpType1Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SLHelpType1Cell.xib; sourceTree = "<group>"; };
 		7B091D78225D002500F4433C /* SLHelpType2Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLHelpType2Cell.h; sourceTree = "<group>"; };
 		7B091D79225D002500F4433C /* SLHelpType2Cell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLHelpType2Cell.m; sourceTree = "<group>"; };
 		7B091D7A225D002500F4433C /* SLHelpType2Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SLHelpType2Cell.xib; sourceTree = "<group>"; };
@@ -312,7 +310,6 @@
 			children = (
 				7B091D73225D000D00F4433C /* SLHelpType1Cell.h */,
 				7B091D74225D000D00F4433C /* SLHelpType1Cell.m */,
-				7B091D75225D000D00F4433C /* SLHelpType1Cell.xib */,
 				7B091D78225D002500F4433C /* SLHelpType2Cell.h */,
 				7B091D79225D002500F4433C /* SLHelpType2Cell.m */,
 				7B091D7A225D002500F4433C /* SLHelpType2Cell.xib */,
@@ -440,7 +437,6 @@
 				7B39C4182250E1D8008633B9 /* Login.storyboard in Resources */,
 				7B39C3F22250DA11008633B9 /* LaunchScreen.storyboard in Resources */,
 				7B091D7C225D002500F4433C /* SLHelpType2Cell.xib in Resources */,
-				7B091D77225D000D00F4433C /* SLHelpType1Cell.xib in Resources */,
 				7B39C3EF2250DA11008633B9 /* Assets.xcassets in Resources */,
 				7B39C3ED2250DA0E008633B9 /* Main.storyboard in Resources */,
 			);

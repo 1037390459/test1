@@ -10,19 +10,30 @@
 
 @interface SLHelpType1Cell()
 
-@property (weak, nonatomic) IBOutlet UILabel *lbl;
-@property (weak, nonatomic) IBOutlet UIImageView *imgV;
+@property (strong, nonatomic)  UILabel *lbl;
+@property (strong, nonatomic)  UIImageView *imgV;
 
 @end
 
 @implementation SLHelpType1Cell
 
-- (void)awakeFromNib {
-    [super awakeFromNib];
+-(instancetype)init {
+    if (self = [super init]) {
+        [self setUp];
+    }
+    return self;
+}
+
+- (void)setUp {
+    self.lbl = [[UILabel alloc]init];
+    self.imgV = [[UIImageView alloc]init];
+}
+
+-(void)layoutSubviews {
+    [super layoutSubviews];
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
     [UIView animateWithDuration:0.4 animations:^{
         self.imgV.transform = CGAffineTransformMakeRotation(M_PI);
     }];

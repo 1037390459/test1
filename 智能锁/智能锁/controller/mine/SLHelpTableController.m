@@ -13,83 +13,74 @@
 
 @interface SLHelpTableController ()
 
-@property(nonatomic, strong) NSMutableArray *mdata;
+@property(nonatomic, strong) NSArray *mdata;
+@property (strong, nonatomic) NSMutableArray *expandSections;
 
 @end
 
 @implementation SLHelpTableController
 
--(NSMutableArray *)mdata {
+- (NSArray *)mdata {
     if (!_mdata) {
-        NSMutableArray *mArr = [NSMutableArray array];
-        NSArray *dicArr = @[
-                   @{@"title":@"关于充值的常见问题",
-                     @"type":@(1)},
-                   @{@"title":@"1、客户提供详细文案客户提供详细文案客户提供详细文案客户提供详细文案客户提供详细文案客户提供详细文案客户供详细文案客户提供详细文案",
-                     @"type":@(2),
-                     @"hidden":@(true)},
-                   @{@"title":@"关于充值的常见问题",
-                     @"type":@(1),},
-                   @{@"title":@"2、客户提供详细文案客户提供详细文案客户提供详细文案客户提供详细文案客户提供详细文案客户提供详细文案客户供详细文案客户提供详细文案",
-                     @"type":@(2),
-                     @"hidden":@(true)},
-                   @{@"title":@"关于充值的常见问题",
-                     @"type":@(1),},
-                   @{@"title":@"3、客户提供详细文案客户提供详细文案客户提供详细文案客户提供详细文案客户提供详细文案客户提供详细文案客户供详细文案客户提供详细文案",
-                     @"type":@(2),
-                     @"hidden":@(true)},
+        _mdata = @[
+                   @{@"header":@"关于充值的常见问题",
+                     @"items":@[@"1、客户提供详细文案客户提供详细文案客户提供详细文案客户提供详细文案客户提供详细文案客户提供详细文案客户供详细文案客户提供详细文案",@"11、客户提供详细文案客户提供详细文案客户提供详细文案客户提供详细文案客户提供详细文案客户提供详细文案客户供详细文案客户提供详细文案"]},
+                   @{@"header":@"关于充值的常见问题",
+                     @"items":@[@"2、客户提供详细文案客户提供详细文案客户提供详细文案客户提供详细文案客户提供详细文案客户提供详细文案客户供详细文案客户提供详细文案"]},
                    ];
-        for (NSDictionary *dic in dicArr) {
-            SLHelpModel *model = [[SLHelpModel alloc]initWithDic:dic];
-            [mArr addObject:model];
-        }
-        _mdata = mArr;
     }
     return _mdata;
+}
+
+- (NSMutableArray *)expandSections {
+    if (!_expandSections) {
+        _expandSections = [NSMutableArray array];
+    }
+    return _expandSections;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.tableView.backgroundView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"bg.png"]];
     self.tableView.tableFooterView = [[UIView alloc]initWithFrame:CGRectZero];
-    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([SLHelpType1Cell class]) bundle:nil] forCellReuseIdentifier:NSStringFromClass([SLHelpType1Cell class])];
+    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([SLHelpType1Cell class]) bundle:nil] forHeaderFooterViewReuseIdentifier:NSStringFromClass([SLHelpType1Cell class])];
     [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([SLHelpType2Cell class]) bundle:nil] forCellReuseIdentifier:NSStringFromClass([SLHelpType2Cell class])];
 }
 
 #pragma mark tableview datasource & delegate
--(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return self.mdata.count;
 }
 
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    BOOL expand = [self.expandSections containsObject:@(section)];
+    return expand ? [self.mdata[section][@"items"] count] : 0;
+}
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    SLHelpModel *model =  self.mdata[indexPath.row];
-    if (model.type == 1) {
-        SLHelpType1Cell* cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([SLHelpType1Cell class])];
-        [cell configureCellWithTitle:model.title];
-        return cell;
-    }
-    if (model.type == 2) {
-        SLHelpType2Cell* cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([SLHelpType2Cell class])];
-        [cell configureCellWithTitle:model.title];
-        return cell;
-    }
-    return nil;
+    NSString *title =  self.mdata[indexPath.section][@"items"][indexPath.row];
+    SLHelpType2Cell* cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([SLHelpType2Cell class])];
+    [cell configureCellWithTitle:title];
+    return cell;
 }
 
--(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    SLHelpModel *model =  self.mdata[indexPath.row];
-    return model.hidden ? 0 : UITableViewAutomaticDimension;
+-(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
+    SLHelpType1Cell *cell = [tableView dequeueReusableHeaderFooterViewWithIdentifier:NSStringFromClass([SLHelpType1Cell class])];
+    NSString *title = self.mdata[section][@"header"];
+    [cell configureCellWithTitle:title];
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithActionBlock:^(id  _Nonnull sender) {
+        cell.selected = !cell.isSelected;
+        if (cell.isSelected) {
+            [self.expandSections addObject:@(section)];
+        }else{
+            [self.expandSections removeObject:@(section)];
+        }
+        [self.tableView reloadSection:section withRowAnimation:UITableViewRowAnimationFade];
+    }];
+    [cell addGestureRecognizer:tap];
+    cell.backgroundColor = [UIColor redColor];
+    return cell;
 }
 
--(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    SLHelpModel *model =  self.mdata[indexPath.row];
-    NSInteger cellType = model.type;
-    if (cellType == 1){
-        [tableView updateWithBlock:^(UITableView * _Nonnull tableView) {
-            SLHelpModel *model2 =  self.mdata[indexPath.row+1];
-            model2.hidden = !model2.hidden;
-        }];
-    }
-}
 
 @end

@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SLHelpType1Cell : UITableViewCell
+@interface SLHelpType1Cell : UITableViewHeaderFooterView
 
 - (void)configureCellWithTitle:(NSString *)title;
 
