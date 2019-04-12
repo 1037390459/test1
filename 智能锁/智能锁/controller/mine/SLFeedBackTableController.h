@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SLFeedBackTableController : UITableViewController
+@interface SLFeedBackTableController : SLBaseTableController
 
 @end
 

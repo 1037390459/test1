@@ -16,9 +16,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.tableView.backgroundView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"me_bg.png"]];
-    self.tableView.tableFooterView = [[UIView alloc]initWithFrame:CGRectZero];
 }
 
 @end

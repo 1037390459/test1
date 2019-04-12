@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SLSignUpViewController : UIViewController
+@interface SLSignUpViewController : SLBaseViewController
 
 @end
 

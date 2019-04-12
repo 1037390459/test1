@@ -1,8 +1,8 @@
 //
-//  SLNikeNameTableController.h
+//  SLTempNickNameTableController.h
 //  智能锁
 //
-//  Created by million on 2019/4/3.
+//  Created by million on 2019/4/11.
 //  Copyright © 2019 million. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SLNikeNameTableController : SLBaseTableController
+@interface SLTempNickNameTableController : SLBaseTableController
 
 @end
 

@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SLForgetPwdViewController : UIViewController
+@interface SLForgetPwdViewController : SLBaseViewController
 
 @end
 

@@ -23,6 +23,15 @@
 		7B091D91225E4D5E00F4433C /* SLUserNickPickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B091D90225E4D5E00F4433C /* SLUserNickPickViewController.m */; };
 		7B091D94225E4D6B00F4433C /* SLUserNickEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B091D93225E4D6B00F4433C /* SLUserNickEditViewController.m */; };
 		7B091D97225E500B00F4433C /* SLAdminTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B091D96225E500B00F4433C /* SLAdminTableController.m */; };
+		7B091D9A225F869600F4433C /* SLTempAuthUserTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B091D99225F869600F4433C /* SLTempAuthUserTableController.m */; };
+		7B091D9D225F86B200F4433C /* SLTempPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B091D9C225F86B200F4433C /* SLTempPasswordViewController.m */; };
+		7B091DA0225F86E000F4433C /* SLTempUserSettingsTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B091D9F225F86E000F4433C /* SLTempUserSettingsTableController.m */; };
+		7B091DA3225F872000F4433C /* SLTempNickNameTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B091DA2225F872000F4433C /* SLTempNickNameTableController.m */; };
+		7B091DA6225F876E00F4433C /* SLNotiPushSettingsTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B091DA5225F876E00F4433C /* SLNotiPushSettingsTableController.m */; };
+		7B091DA9225F879400F4433C /* SLWifiShareTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B091DA8225F879400F4433C /* SLWifiShareTableController.m */; };
+		7B091DAC225F87B900F4433C /* SLVoiceMsgTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B091DAB225F87B900F4433C /* SLVoiceMsgTableController.m */; };
+		7B091DAF225F87D300F4433C /* SLDeviceTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B091DAE225F87D300F4433C /* SLDeviceTimeViewController.m */; };
+		7B091DB2225F87F700F4433C /* SLKeyboardDisplayTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B091DB1225F87F700F4433C /* SLKeyboardDisplayTableViewController.m */; };
 		7B39C3E72250DA0E008633B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B39C3E62250DA0E008633B9 /* AppDelegate.m */; };
 		7B39C3ED2250DA0E008633B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B39C3EB2250DA0E008633B9 /* Main.storyboard */; };
 		7B39C3EF2250DA11008633B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B39C3EE2250DA11008633B9 /* Assets.xcassets */; };
@@ -96,6 +105,24 @@
 		7B091D93225E4D6B00F4433C /* SLUserNickEditViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLUserNickEditViewController.m; sourceTree = "<group>"; };
 		7B091D95225E500B00F4433C /* SLAdminTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLAdminTableController.h; sourceTree = "<group>"; };
 		7B091D96225E500B00F4433C /* SLAdminTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLAdminTableController.m; sourceTree = "<group>"; };
+		7B091D98225F869600F4433C /* SLTempAuthUserTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLTempAuthUserTableController.h; sourceTree = "<group>"; };
+		7B091D99225F869600F4433C /* SLTempAuthUserTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLTempAuthUserTableController.m; sourceTree = "<group>"; };
+		7B091D9B225F86B200F4433C /* SLTempPasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLTempPasswordViewController.h; sourceTree = "<group>"; };
+		7B091D9C225F86B200F4433C /* SLTempPasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLTempPasswordViewController.m; sourceTree = "<group>"; };
+		7B091D9E225F86E000F4433C /* SLTempUserSettingsTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLTempUserSettingsTableController.h; sourceTree = "<group>"; };
+		7B091D9F225F86E000F4433C /* SLTempUserSettingsTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLTempUserSettingsTableController.m; sourceTree = "<group>"; };
+		7B091DA1225F872000F4433C /* SLTempNickNameTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLTempNickNameTableController.h; sourceTree = "<group>"; };
+		7B091DA2225F872000F4433C /* SLTempNickNameTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLTempNickNameTableController.m; sourceTree = "<group>"; };
+		7B091DA4225F876E00F4433C /* SLNotiPushSettingsTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLNotiPushSettingsTableController.h; sourceTree = "<group>"; };
+		7B091DA5225F876E00F4433C /* SLNotiPushSettingsTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLNotiPushSettingsTableController.m; sourceTree = "<group>"; };
+		7B091DA7225F879400F4433C /* SLWifiShareTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLWifiShareTableController.h; sourceTree = "<group>"; };
+		7B091DA8225F879400F4433C /* SLWifiShareTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLWifiShareTableController.m; sourceTree = "<group>"; };
+		7B091DAA225F87B900F4433C /* SLVoiceMsgTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLVoiceMsgTableController.h; sourceTree = "<group>"; };
+		7B091DAB225F87B900F4433C /* SLVoiceMsgTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLVoiceMsgTableController.m; sourceTree = "<group>"; };
+		7B091DAD225F87D300F4433C /* SLDeviceTimeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLDeviceTimeViewController.h; sourceTree = "<group>"; };
+		7B091DAE225F87D300F4433C /* SLDeviceTimeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLDeviceTimeViewController.m; sourceTree = "<group>"; };
+		7B091DB0225F87F700F4433C /* SLKeyboardDisplayTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKeyboardDisplayTableViewController.h; sourceTree = "<group>"; };
+		7B091DB1225F87F700F4433C /* SLKeyboardDisplayTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLKeyboardDisplayTableViewController.m; sourceTree = "<group>"; };
 		7B39C3E22250DA0E008633B9 /* 智能锁.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "智能锁.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B39C3E52250DA0E008633B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7B39C3E62250DA0E008633B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -248,6 +275,24 @@
 				7B091D90225E4D5E00F4433C /* SLUserNickPickViewController.m */,
 				7B091D92225E4D6B00F4433C /* SLUserNickEditViewController.h */,
 				7B091D93225E4D6B00F4433C /* SLUserNickEditViewController.m */,
+				7B091D98225F869600F4433C /* SLTempAuthUserTableController.h */,
+				7B091D99225F869600F4433C /* SLTempAuthUserTableController.m */,
+				7B091D9B225F86B200F4433C /* SLTempPasswordViewController.h */,
+				7B091D9C225F86B200F4433C /* SLTempPasswordViewController.m */,
+				7B091D9E225F86E000F4433C /* SLTempUserSettingsTableController.h */,
+				7B091D9F225F86E000F4433C /* SLTempUserSettingsTableController.m */,
+				7B091DA1225F872000F4433C /* SLTempNickNameTableController.h */,
+				7B091DA2225F872000F4433C /* SLTempNickNameTableController.m */,
+				7B091DA7225F879400F4433C /* SLWifiShareTableController.h */,
+				7B091DA8225F879400F4433C /* SLWifiShareTableController.m */,
+				7B091DA4225F876E00F4433C /* SLNotiPushSettingsTableController.h */,
+				7B091DA5225F876E00F4433C /* SLNotiPushSettingsTableController.m */,
+				7B091DAA225F87B900F4433C /* SLVoiceMsgTableController.h */,
+				7B091DAB225F87B900F4433C /* SLVoiceMsgTableController.m */,
+				7B091DAD225F87D300F4433C /* SLDeviceTimeViewController.h */,
+				7B091DAE225F87D300F4433C /* SLDeviceTimeViewController.m */,
+				7B091DB0225F87F700F4433C /* SLKeyboardDisplayTableViewController.h */,
+				7B091DB1225F87F700F4433C /* SLKeyboardDisplayTableViewController.m */,
 			);
 			path = devices;
 			sourceTree = "<group>";
@@ -562,9 +607,12 @@
 				7B01F68B2258E4EF0064768C /* UIUtils.m in Sources */,
 				7BE2EDCF2254F7D700886E72 /* SLBaseViewController.m in Sources */,
 				7B01F69A225904A90064768C /* SLSignUpViewController.m in Sources */,
+				7B091DA6225F876E00F4433C /* SLNotiPushSettingsTableController.m in Sources */,
 				7BE2EDE122550E2E00886E72 /* SLAboutUsViewController.m in Sources */,
 				7B091D91225E4D5E00F4433C /* SLUserNickPickViewController.m in Sources */,
+				7B091D9D225F86B200F4433C /* SLTempPasswordViewController.m in Sources */,
 				7B091D7B225D002500F4433C /* SLHelpTypeCell.m in Sources */,
+				7B091DA9225F879400F4433C /* SLWifiShareTableController.m in Sources */,
 				7B01F6922258EEFE0064768C /* Theme.m in Sources */,
 				7BE2EDD22254F8BB00886E72 /* SLMineTableController.m in Sources */,
 				7BE2EDDB22550C4600886E72 /* SLFeedBackTableController.m in Sources */,
@@ -573,15 +621,21 @@
 				7BD0F4862254EE3700E13E48 /* SLAccountSafeTableController.m in Sources */,
 				7B091D8B225E390300F4433C /* SLDevicesViewController.m in Sources */,
 				7B01F697225904950064768C /* SLLoginViewController.m in Sources */,
+				7B091DB2225F87F700F4433C /* SLKeyboardDisplayTableViewController.m in Sources */,
 				7BE2EDD82254FDE900886E72 /* SLNikeNameTableController.m in Sources */,
 				7B091D97225E500B00F4433C /* SLAdminTableController.m in Sources */,
+				7B091DA3225F872000F4433C /* SLTempNickNameTableController.m in Sources */,
+				7B091DAF225F87D300F4433C /* SLDeviceTimeViewController.m in Sources */,
 				7B091D86225E289B00F4433C /* SLSectionHeaderFooterView.m in Sources */,
 				7BE2EDD52254FCA400886E72 /* SLUserProfileTableController.m in Sources */,
+				7B091D9A225F869600F4433C /* SLTempAuthUserTableController.m in Sources */,
+				7B091DA0225F86E000F4433C /* SLTempUserSettingsTableController.m in Sources */,
 				7B091D94225E4D6B00F4433C /* SLUserNickEditViewController.m in Sources */,
 				7B39C3F52250DA11008633B9 /* main.m in Sources */,
 				7BE2EDCC2254F7BF00886E72 /* SLBaseTableController.m in Sources */,
 				7B091D8E225E3EFF00F4433C /* SLSettingsTableController.m in Sources */,
 				7BE2EDDE22550CEC00886E72 /* SLHelpTableController.m in Sources */,
+				7B091DAC225F87B900F4433C /* SLVoiceMsgTableController.m in Sources */,
 				7B39C3E72250DA0E008633B9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -754,8 +808,9 @@
 			baseConfigurationReference = 4C6F4B01DAEA07A399279C84 /* Pods-智能锁.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LS35ZZ469J;
+				DEVELOPMENT_TEAM = T8936DP2M2;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREFIX_HEADER = "智能锁/PrefixHeader.pch";
 				INFOPLIST_FILE = "智能锁/Info.plist";
@@ -765,6 +820,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "million.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -774,8 +830,9 @@
 			baseConfigurationReference = 7FCF78F11EC0D8BD8A5051D6 /* Pods-智能锁.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LS35ZZ469J;
+				DEVELOPMENT_TEAM = T8936DP2M2;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(inherited)";
 				GCC_PREFIX_HEADER = "智能锁/PrefixHeader.pch";
@@ -786,6 +843,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "million.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

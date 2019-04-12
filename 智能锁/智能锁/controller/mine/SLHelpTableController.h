@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SLHelpTableController : UITableViewController
+@interface SLHelpTableController : SLBaseTableController
 
 @end
 

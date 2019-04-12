@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SLAdminTableController : UITableViewController
+@interface SLAdminTableController : SLBaseTableController
 
 @end
 
