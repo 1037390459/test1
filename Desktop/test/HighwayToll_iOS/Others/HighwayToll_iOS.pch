@@ -1,0 +1,196 @@
+//
+//  HighwayToll_iOS.pch
+//  HighwayToll_iOS
+//
+//  Created by wuyaju on 2017/11/23.
+//  Copyright © 2017年 zheng. All rights reserved.
+//
+
+#ifndef HighwayToll_iOS_pch
+#define HighwayToll_iOS_pch
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//
+
+/************************** 字符串转换 Begin *****************************/
+
+#define kStringByInt(i)              [NSString stringWithFormat:@"%ld",i]
+#define kStringByFloat(f)            [NSString stringWithFormat:@"%lf",f]
+#define kStringByObject(o)           [NSString stringWithFormat:@"%@",o]
+#define kStringByCharString(s)       [NSString stringWithFormat:@"%s",c]
+#define kStringByChar(c)             [NSString stringWithFormat:@"%c",c]
+#define kStringConvertNull(str)      [NSString convertNull:str]
+
+// 判断是否是ipad
+#define IS_IPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+#define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define IS_RETINA ([[UIScreen mainScreen] scale] >= 2.0)
+
+#define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+#define SCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
+#define SCREEN_MAX_LENGTH (MAX(SCREEN_WIDTH, SCREEN_HEIGHT))
+#define SCREEN_MIN_LENGTH (MIN(SCREEN_WIDTH, SCREEN_HEIGHT))
+
+#define IS_IPHONE_4_OR_LESS (IS_IPHONE && SCREEN_MAX_LENGTH < 568.0)
+#define IS_IPHONE_5 (IS_IPHONE && SCREEN_MAX_LENGTH == 568.0)
+#define IS_IPHONE_6 (IS_IPHONE && SCREEN_MAX_LENGTH == 667.0)
+#define IS_IPHONE_6P (IS_IPHONE && SCREEN_MAX_LENGTH == 736.0)
+//判断当前设备是不是iPhone X
+#define IPHONE_X    (([[UIScreen mainScreen] bounds].size.height) ==812)
+#define kNavHeight IPHONE_X?88:64
+#define kCellHeight IS_IPHONE_5?44:50
+//----------------------------十六进制色值-----------------------------//
+#define KHexRGB(rgbValue)    [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+//-----------------------------字体颜色-------------------------------//
+#define KLabelColor_white [UIColor whiteColor]
+#define KLabelColor_black KHexRGB(212121)
+#define KLabelColor_ligthGray [UIColor lightGrayColor]
+#define KLabelColor_darkLabel [UIColor darkGrayColor]
+#define KLabelColor_greenColor kRGBColor(57, 159, 86)
+#define LXFontValue(value) ((value)/414.0f*[UIScreen mainScreen].bounds.size.width)
+
+// 颜色相关
+// 1.获得RGB颜色
+#define kRGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#define kWidth  [LXDeviceManager currentScreenSize].width
+#define kHeight [LXDeviceManager currentScreenSize].height
+//------
+#define K_IsEqual(str1,str2) [str1 isEqualToString:str2]
+#define K_IsContain(str1,str2) [str1 containsString:str2]
+#import "AppDelegate.h"
+#import "LXCommon.h"
+#import "LXDate.h"
+#import "LXCulture.h"
+#import "LXMessage.h"
+#import "LXView.h"
+#import "LXInterface.h"
+#import "LXDate.h"
+#import "LXDeviceManager.h"
+#import "LXNetManager.h"
+#import "LXUserInfoModel.h"
+//----------------常用的第三方分类-----------
+#import "MWPhotoBrowser.h"
+#import "UIImageView+WebCache.h"
+#import "UIButton+WebCache.h"
+#import "AFNetworking.h"
+#import "MJRefresh.h"
+#import "NSString+Hashing.h"
+#import "NSString+URLRequestQuery.h"
+#import "NSString+Base64.h"
+#import "NSString+IsNull.h"
+#import "NSString+FormDictionary.h"
+#import "NSString+TimeDeal.h"
+#import "UIViewController+XXPushAnimation.h"
+#import "UINavigationController+WXSTransition.h" //专场动画
+#import "UICollectionView+CellAnimation.h"
+#import "UIView+Category.h"  //**动画分类
+#import "UILabel+YBAttributeTextTapAction.h"
+#import "UIButton+WebCache.h"
+#import "NSData+Base64.h"
+#import "MBProgressHUD.h"
+#import "NSFileManager+PathMethod.h"
+#import "NSAttributedString+MLLabel.h"
+#import "UIView+ST.h"
+#import "UIColor+Extension.h"
+#import "NSAttributedString+MLLabel.h"
+#import "NSArrayHeader.h"
+#import "NSDate+Time.h"
+#import "NSDictionary+Value.h"
+#import "File.h"
+#import "FileManager.h"
+#import "NSFileManager+Paths.h"
+#import "NSFileManager+PathMethod.h"
+#import "LXObject.h"
+#import "NSRunLoop+PerformBlock.h"
+#import "NSString+Common.h"
+#import "NSString+DES.h"
+#import "NSString+Extension.h"
+#import "UIButton+countDown.h"
+#import "UICollectionView+LongGesture.h"
+#import "UIImage+Additions.h"
+#import "UIImage+COSAdtions.h"
+#import "UIImage+XN.h"
+#import "UIImage+WaterMark.h"
+#import "UIImageView+Barcode.h"
+#import "UIImageView+Gif.h"
+#import "UINavigationController+YQFullscreenPopGesture.h"
+#import "UITabBar+badge.h"
+#import "UITableView+CellLine.h"
+#import "UIView+YFExtension.h"
+#import <IQKeyboardManager.h>
+#import "Masonry.h"
+#import "LXCommon.h"
+#import "CALayer+Transition.h"
+#import "UIButton+CenterImageAndTitle.h"
+#import "QRCodeViewController.h"
+#import "CAAnimation+PagesViewBarShake.h"//动画分类
+#import "UIView+Toast.h"
+#import "UITextField+Animation.h"
+#import "UICollectionView+MJRefresh.h" 
+//-----------------------NSUserDefualt 数据操作-----------------------//
+#define KUserDefault [NSUserDefaults standardUserDefaults]
+#define KUserDefault_Get(key) [KUserDefault objectForKey:key]
+#define KUserDefault_Set(obejct,key) [KUserDefault setObject:obejct forKey:key]
+#define KUserDefault_Remove [[NSUserDefaults standardUserDefaults] removePersistentDomainForName:[[NSBundle mainBundle] bundleIdentifier]] //删除所有
+#define  kWindow [[[UIApplication sharedApplication] delegate] window]
+#define KRandomColor [UIColor colorWithRed:arc4random_uniform(256)/255.0 green:arc4random_uniform(256)/255.0 blue:arc4random_uniform(256)/255.0 alpha:1.0]
+
+//以iPhone6为设计尺寸
+#define kScaleFrom_iPhone6_Desgin(_X_) (_X_ * (kScreen_Width/375))
+//文字
+#define kfontValue(value) ((value)/375.0f*[UIScreen mainScreen].bounds.size.width)
+//以iPhone6为设计尺寸
+#define k_width (SCREEN_WIDTH/375)
+#define k_height (SCREEN_HEIGHT/667)
+//-------------------------下拉刷新的宏-------------------------------//
+#define KLXNOTIFICATION_onBottomRefreshNotice @"NOTIFICATION_onBottomRefreshNotice" /**<底部刷新通知*/
+#define KLXNOTIFICATION_onHeadRefreshNotice   @"NOTIFICATION_onHeadRefreshNotice"   /**<头部刷新通知*/
+#pragma mark -
+//-------------------------图片提取-返回image-------------------------//
+ #define KImage_Common(imageName) [UIImage imageWithContentsOfFile:[NSString stringWithFormat:@"%@/common.bundle/%@.png", [[NSBundle mainBundle] resourcePath], imageName]]
+
+ #define KImage_Str(imageName)  [NSString stringWithFormat:@"http://api.highway.com/%@",imageName]
+//------数组或者字符串判断是否为空 start -------
+ #define kStringIsEmpty(str) ([str isKindOfClass:[NSNull class]] || str == nil || [str length] < 1 ? YES : NO )
+
+ #define kArrayIsEmpty(array) (array == nil || [array isKindOfClass:[NSNull class]] || array.count == 0)
+
+ #define kDictIsEmpty(dic) (dic == nil || [dic isKindOfClass:[NSNull class]] || dic.allKeys == 0)
+
+#define kScreenWidth \
+([[UIScreen mainScreen] respondsToSelector:@selector(nativeBounds)] ? [UIScreen mainScreen].nativeBounds.size.width/[UIScreen mainScreen].nativeScale : [UIScreen mainScreen].bounds.size.width)
+
+#define kScreenHeight \
+([[UIScreen mainScreen] respondsToSelector:@selector(nativeBounds)] ? [UIScreen mainScreen].nativeBounds.size.height/[UIScreen mainScreen].nativeScale : [UIScreen mainScreen].bounds.size.height)
+
+#define kScreenSize \
+([[UIScreen mainScreen] respondsToSelector:@selector(nativeBounds)] ? CGSizeMake([UIScreen mainScreen].nativeBounds.size.width/[UIScreen mainScreen].nativeScale,[UIScreen mainScreen].nativeBounds.size.height/[UIScreen mainScreen].nativeScale) : [UIScreen mainScreen].bounds.size)
+
+#define KBACKGROUND_COLOR [UIColor colorWithRed:242.0/255.0 green:236.0/255.0 blue:231.0/255.0 alpha:1.0]
+
+#define kApplication        [UIApplication sharedApplication]
+
+#define kKeyWindow          [UIApplication sharedApplication].keyWindow
+
+#define kAppDelegate        [UIApplication sharedApplication].delegate
+
+#define kUserDefaults      [NSUserDefaults standardUserDefaults]
+
+#define kNotificationCenter [NSNotificationCenter defaultCenter]
+//--------------------end------------------
+////弱化
+#define LXWeakSelf(type)  __weak typeof(type) weak##type = type;
+//强化
+#define LXStrongSelf(type)  __strong typeof(type) type = weak##type;
+ 
+#ifdef DEBUG
+#define DLog(...) NSLog(@"%s 第%d行 \n %@\n\n",__func__,__LINE__,[NSString stringWithFormat:__VA_ARGS__])
+#else
+#define DLog(...)
+
+#endif
+
+#endif /* HighwayToll_iOS_pch */
